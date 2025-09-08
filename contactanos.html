@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contactanos</h1>
+    </header>
+    <nav class="menu">
+        <a class="activo" href="inicio.html">Inicio</a>
+        <select class="select" onchange="if(this.value) location=this.value;" id="musculos">
+            <option value="" selected disabled hidden>Músculos</option>
+            <option value="gluteos.html">Glúteos</option>
+            <option value="cuadriceps.html">Cuádriceps</option>
+            <option value="espalda.html">Espalda</option>
+            <option value="femoral.html">Femorales/Isquiotibiales</option>
+        </select>
+        <a class="activo" href="rutina.html">Rutina</a>
+        <select class="select" onchange="if(this.value) location=this.value;" id="alimentacion">
+            <option value="" selected disabled hidden>Alimentación</option>
+            <option value="alimentacion.html">Alimentación</option>
+            <option value="preGym.html">¿Qué comer antes de entrenar?</option>
+            <option value="postGym.html">¿Qué comer despues de entrenar?</option>
+        </select>
+    </nav>
+    <main>
+        <section id="contacto">
+            <p>Si tienes dudas, sugerencias o comentarios completa el siguiente formulario y nos pondremos en contacto
+                contigo.</p>
+            <form action="https://formspree.io/f/mnnbvydr" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+
+                <label for="asunto">Asunto:</label>
+                <select id="asunto" name="asunto" required>
+                    <option value="" selected disabled hidden>Selecciona un asunto</option>
+                    <option value="rutinaPersonalizada">Rutina Personalizada</option>
+                    <option value="duda">Duda</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="comentario">Comentario</option>
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."
+                    required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Vida Saludable. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

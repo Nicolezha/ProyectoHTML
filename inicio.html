@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vida Saludable: ejercicios, rutinas y consejos de alimentación para mejorar tu salud,
+        fuerza y bienestar día a día.">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Vida Saludable</title>
+</head>
+
+<body>
+    <header>
+        <h1>Vida Saludable</h1>
+    </header>
+    <nav class="menu">
+        <a class="activo" href="inicio.html">Inicio</a>
+        <select class="select" onchange="if(this.value) location=this.value;" id="musculos">
+            <option value="" selected disabled hidden>Músculos</option>
+            <option value="gluteos.html">Glúteos</option>
+            <option value="cuadriceps.html">Cuádriceps</option>
+            <option value="espalda.html">Espalda</option>
+            <option value="femoral.html">Femorales/Isquiotibiales</option>
+        </select>
+        <a class="activo" href="rutina.html">Rutina</a>
+        <select class="select" onchange="if(this.value) location=this.value;" id="alimentacion">
+            <option value="" selected disabled hidden>Alimentación</option>
+            <option value="alimentacion.html">Alimentación</option>
+            <option value="preGym.html">¿Qué comer antes de entrenar?</option>
+            <option value="postGym.html">¿Qué comer despues de entrenar?</option>
+        </select>
+    </nav>
+    <!-- Contenido principal -->
+    <main>
+        <div>
+            <section id="intro">
+                <h2>Bienvenido a Vida Saludable</h2>
+                <p>
+                    En este espacio encontrarás información práctica sobre cada grupo muscular,
+                    los ejercicios más efectivos para fortalecerlo y los alimentos que ayudan a su desarrollo y
+                    recuperación.
+                    Pero además, hablaremos de hábitos que mejoran tu calidad de vida, como el descanso, la nutrición y
+                    la motivación.
+                </p>
+            </section>
+
+            <section id="beneficios">
+                <h2>¿Por qué es bueno entrenar?</h2>
+                <article>
+                    <h3>Salud física</h3>
+                    <p>
+                        El ejercicio fortalece los músculos y huesos, mejora la circulación,
+                        regula el peso corporal y reduce el riesgo de enfermedades cardiovasculares, diabetes y
+                        obesidad.
+                    </p>
+                </article>
+                <article>
+                    <h3>Salud mental</h3>
+                    <p>
+                        Entrenar libera endorfinas, conocidas como las hormonas de la felicidad,
+                        lo que ayuda a reducir el estrés, la ansiedad y la depresión.
+                    </p>
+                    <sapn>Fuente:</span>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/36756008/">Role of Physical Activity on Mental Health
+                            and Well-Being: A Review.</a>
+                </article>
+                <article>
+                    <h3>Desempeño diario</h3>
+                    <p>
+                        Mantener el cuerpo activo mejora la postura, la movilidad y la resistencia,
+                        lo que se traduce en más energía para realizar tus actividades cotidianas.
+                    </p>
+                </article>
+            </section>
+
+            <section id="alimentacion">
+                <h2>La importancia de la nutrición</h2>
+                <p>
+                    Una alimentación balanceada es clave para el rendimiento físico y la recuperación muscular.
+                    No se trata solo de entrenar duro, sino de alimentar el cuerpo con lo que necesita.
+                </p>
+                <ul>
+                    <li><strong>Proteínas:</strong> ayudan a reparar y construir fibras musculares.</li>
+                    <li><strong>Carbohidratos:</strong> principal fuente de energía durante el entrenamiento.</li>
+                    <li><strong>Grasas saludables:</strong> esenciales para el equilibrio hormonal y el cerebro.</li>
+                    <li><strong>Vitaminas y minerales:</strong> favorecen la contracción muscular, la oxigenación y la
+                        inmunidad.</li>
+                    <li><strong>Agua:</strong> fundamental para la hidratación y el rendimiento físico.</li>
+                </ul>
+            </section>
+
+            <section id="descanso">
+                <h2>El poder del descanso</h2>
+                <p>
+                    El descanso es tan importante como el entrenamiento. Dormir entre 7 y 9 horas permite que los
+                    músculos se recuperen,
+                    que el sistema nervioso se estabilice y que tengas la energía suficiente para el día siguiente.
+                </p>
+            </section>
+            <!-- Poner al lado derecho de la pagina -->
+        </div>
+        <aside>
+            <h2>Tip de motivación</h2>
+            <p class="hex">
+                <span>Recuerda:</span> <em>"El progreso no se mide en un solo día, sino en la constancia de cada pequeño
+                    esfuerzo."</em>
+                <span>Entrenar no es solo por estética, es invertir en tu salud y bienestar a largo plazo.</span>
+            </p>
+        </aside>
+    </main>
+    <footer>
+        <nav aria-label="Enlaces de pie de página">
+            <a href="contactanos.html">Contáctanos</a>
+        </nav>
+        <p>Imágenes tomadas de
+            <a href="https://co.pinterest.com/" target="_blank" rel="noopener noreferrer">
+                Pinterest
+            </a>
+        </p>
+        <p>&copy; 2025 Vida Saludable. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
