@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-# Proyecto HTML5 – Página de Ejercicios 💪
-=======
-# Proyecto HTML5 – Página de Ejercicios 
->>>>>>> ae080e9 (commitcito)
-
+# Proyecto HTML5 – Página de Ejercicios
 ## 1. Introducción del proyecto
 Como proyecto de sitio web estático, diseñé y desarrollé una página web que presenta los principales ejercicios para algunos músculos del cuerpo humano, entre ellos la espalda, los cuádriceps, los femorales y los glúteos.  
 Elegí este tema porque me interesa el mundo del gimnasio y todo lo relacionado con él, como los ejercicios, la alimentación, la técnica y los beneficios del entrenamiento.  
@@ -54,4 +49,4 @@ Una de las principales dificultades fue comprender la estructura de las etiqueta
 Sin embargo, más allá de esa dificultad, me resultó sencillo aprender el uso de las etiquetas HTML, gracias a la amplia y accesible información disponible sobre el tema.  
 
 ## 5. URL Repositorio GitHub
-👉 [Proyecto en GitHub](https://github.com/Nicolezha/ProyectoHTML5.git)
+👉 [Proyecto en GitHub](https://github.com/Nicolezha/ProyectoHTML.git)
